@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "64f95ea498bdc4d2dd2089452d1396ca",
+    "content-hash": "451b91508638dd6c9be3f2c52f1e6f0e",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -454,16 +454,16 @@
         },
         {
             "name": "kairossystems/crud",
-            "version": "0.1",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/KairosSystems/crud.git",
-                "reference": "36f891d943ba38620946b7157aa511288571a721"
+                "reference": "9a2ce7032aaaec6625c871d0041d7ec9d5b396a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KairosSystems/crud/zipball/36f891d943ba38620946b7157aa511288571a721",
-                "reference": "36f891d943ba38620946b7157aa511288571a721",
+                "url": "https://api.github.com/repos/KairosSystems/crud/zipball/9a2ce7032aaaec6625c871d0041d7ec9d5b396a1",
+                "reference": "9a2ce7032aaaec6625c871d0041d7ec9d5b396a1",
                 "shasum": ""
             },
             "require": {
@@ -495,7 +495,7 @@
                 "laravel",
                 "php"
             ],
-            "time": "2018-10-14T18:21:16+00:00"
+            "time": "2018-10-15T05:59:47+00:00"
         },
         {
             "name": "laravel/framework",
