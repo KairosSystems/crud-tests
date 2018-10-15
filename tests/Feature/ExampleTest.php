@@ -12,10 +12,29 @@ class ExampleTest extends TestCase
      *
      * @return void
      */
-    public function testBasicTest()
+    public function testGetAll()
     {
-        $response = $this->get('/');
+        $response = $this->get('/example');
+        $response->assertStatus(200);
+    }
 
+    public function testGetOne()
+    {
+        $response = $this->get('/example/inexistentId');
+        $response->assertStatus(404);
+    }
+
+    public function testInsertAndGet()
+    {
+        $data = ['name' => 'Hello', 'description' => 'World', 'file' => 'Test'];
+        $response = $this->json('POST', '/example', $data);
+        $response->assertStatus(200);
+    }
+
+    public function testUpdate()
+    {
+        $data = ['name' => 'Changed'];
+        $response = $this->json('PUT', '/example/1', $data);
         $response->assertStatus(200);
     }
 }

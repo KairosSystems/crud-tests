@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "66ca7343889332c2b8ecca11c251430c",
+    "content-hash": "64f95ea498bdc4d2dd2089452d1396ca",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -451,6 +451,51 @@
                 }
             ],
             "time": "2015-04-20T18:58:01+00:00"
+        },
+        {
+            "name": "kairossystems/crud",
+            "version": "0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/KairosSystems/crud.git",
+                "reference": "36f891d943ba38620946b7157aa511288571a721"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/KairosSystems/crud/zipball/36f891d943ba38620946b7157aa511288571a721",
+                "reference": "36f891d943ba38620946b7157aa511288571a721",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": ">=5.4",
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "KairosSystems\\CRUD\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kairos Systems",
+                    "email": "contacto@kairos.systems"
+                }
+            ],
+            "description": "Easy CRUDs.",
+            "homepage": "https://kairos.systems",
+            "keywords": [
+                "controller",
+                "crud",
+                "generic",
+                "laravel",
+                "php"
+            ],
+            "time": "2018-10-14T18:21:16+00:00"
         },
         {
             "name": "laravel/framework",
