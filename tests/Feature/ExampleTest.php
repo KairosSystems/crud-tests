@@ -18,7 +18,7 @@ class ExampleTest extends TestCase
         $response->assertStatus(200);
     }
 
-    public function testGetOne()
+    public function testGetInexistent()
     {
         $response = $this->get('/example/inexistentId');
         $response->assertStatus(404);
