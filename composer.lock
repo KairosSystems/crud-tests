@@ -454,16 +454,16 @@
         },
         {
             "name": "kairossystems/crud",
-            "version": "v0.2.0",
+            "version": "0.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/KairosSystems/crud.git",
-                "reference": "233b01e6f5d12d3457d348c44a1184b7fe327713"
+                "reference": "f5528935fda926e71528f9e9777732c6e1cdcdcd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KairosSystems/crud/zipball/233b01e6f5d12d3457d348c44a1184b7fe327713",
-                "reference": "233b01e6f5d12d3457d348c44a1184b7fe327713",
+                "url": "https://api.github.com/repos/KairosSystems/crud/zipball/f5528935fda926e71528f9e9777732c6e1cdcdcd",
+                "reference": "f5528935fda926e71528f9e9777732c6e1cdcdcd",
                 "shasum": ""
             },
             "require": {
@@ -495,7 +495,7 @@
                 "laravel",
                 "php"
             ],
-            "time": "2018-11-10T21:19:25+00:00"
+            "time": "2018-11-11T08:31:25+00:00"
         },
         {
             "name": "laravel/framework",

@@ -16,4 +16,5 @@ Route::get('/', function () {
 });
 
 
-Route::resource('example', 'ExampleController');
+Route::resource('simple', 'SimpleController');
+Route::resource('single', 'SingleFileController');
